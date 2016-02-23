@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		861679BB1C7AE1B9006AD985 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861679BA1C7AE1B9006AD985 /* InputViewController.swift */; };
+		861679BD1C7AE33E006AD985 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861679BC1C7AE33E006AD985 /* resultViewController.swift */; };
 		864CB5E11C758F40003D1FAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864CB5E01C758F40003D1FAD /* AppDelegate.swift */; };
 		864CB5E31C758F40003D1FAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864CB5E21C758F40003D1FAD /* ViewController.swift */; };
 		864CB5E61C758F40003D1FAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864CB5E41C758F40003D1FAD /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		861679BA1C7AE1B9006AD985 /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		861679BC1C7AE33E006AD985 /* resultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
 		864CB5DD1C758F40003D1FAD /* Uranai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uranai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		864CB5E01C758F40003D1FAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		864CB5E21C758F40003D1FAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				864CB5E71C758F40003D1FAD /* Assets.xcassets */,
 				864CB5E91C758F40003D1FAD /* LaunchScreen.storyboard */,
 				864CB5EC1C758F40003D1FAD /* Info.plist */,
+				861679BA1C7AE1B9006AD985 /* InputViewController.swift */,
+				861679BC1C7AE33E006AD985 /* resultViewController.swift */,
 			);
 			path = Uranai;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				861679BB1C7AE1B9006AD985 /* InputViewController.swift in Sources */,
 				864CB5E31C758F40003D1FAD /* ViewController.swift in Sources */,
 				864CB5E11C758F40003D1FAD /* AppDelegate.swift in Sources */,
+				861679BD1C7AE33E006AD985 /* resultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +293,7 @@
 				864CB5F11C758F40003D1FAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

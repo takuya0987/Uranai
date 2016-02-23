@@ -21,5 +21,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func myBtn(sender: AnyObject) {
+    }
+    
 }
 
