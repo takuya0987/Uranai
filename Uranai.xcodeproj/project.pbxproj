@@ -9,8 +9,18 @@
 /* Begin PBXBuildFile section */
 		861679BB1C7AE1B9006AD985 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861679BA1C7AE1B9006AD985 /* InputViewController.swift */; };
 		861679BD1C7AE33E006AD985 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861679BC1C7AE33E006AD985 /* resultViewController.swift */; };
-		8643DBE71C7FE4960097D8A4 /* ビルゲイツ.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 8643DBE61C7FE4960097D8A4 /* ビルゲイツ.PNG */; };
-		8643DBE91C7FE5F40097D8A4 /* ジョブズ.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8643DBE81C7FE5F40097D8A4 /* ジョブズ.jpeg */; };
+		8643DBF31C8572E60097D8A4 /* ain.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8643DBF21C8572E60097D8A4 /* ain.jpeg */; };
+		8643DBF51C8573150097D8A4 /* jobu.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8643DBF41C8573150097D8A4 /* jobu.jpeg */; };
+		8643DBF71C85732D0097D8A4 /* bafetto.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8643DBF61C85732D0097D8A4 /* bafetto.jpeg */; };
+		8643DBF91C85733E0097D8A4 /* bil.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 8643DBF81C85733E0097D8A4 /* bil.PNG */; };
+		8643DBFB1C85734B0097D8A4 /* disney.png in Resources */ = {isa = PBXBuildFile; fileRef = 8643DBFA1C85734B0097D8A4 /* disney.png */; };
+		8643DBFD1C85735E0097D8A4 /* elon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8643DBFC1C85735E0097D8A4 /* elon.jpeg */; };
+		8643DBFF1C8573660097D8A4 /* matsusita.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8643DBFE1C8573660097D8A4 /* matsusita.jpeg */; };
+		8643DC011C8573700097D8A4 /* olacle.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8643DC001C8573700097D8A4 /* olacle.jpeg */; };
+		8643DC031C8573790097D8A4 /* son.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8643DC021C8573790097D8A4 /* son.jpeg */; };
+		8643DC051C8573820097D8A4 /* yanai.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8643DC041C8573820097D8A4 /* yanai.jpeg */; };
+		8643DC071C8577400097D8A4 /* son2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8643DC061C8577400097D8A4 /* son2.jpeg */; };
+		8643DC091C8590690097D8A4 /* uranaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8643DC081C8590690097D8A4 /* uranaiViewController.swift */; };
 		864CB5E11C758F40003D1FAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864CB5E01C758F40003D1FAD /* AppDelegate.swift */; };
 		864CB5E31C758F40003D1FAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864CB5E21C758F40003D1FAD /* ViewController.swift */; };
 		864CB5E61C758F40003D1FAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864CB5E41C758F40003D1FAD /* Main.storyboard */; };
@@ -21,8 +31,18 @@
 /* Begin PBXFileReference section */
 		861679BA1C7AE1B9006AD985 /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		861679BC1C7AE33E006AD985 /* resultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
-		8643DBE61C7FE4960097D8A4 /* ビルゲイツ.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ビルゲイツ.PNG"; sourceTree = "<group>"; };
-		8643DBE81C7FE5F40097D8A4 /* ジョブズ.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ジョブズ.jpeg"; sourceTree = "<group>"; };
+		8643DBF21C8572E60097D8A4 /* ain.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ain.jpeg; sourceTree = "<group>"; };
+		8643DBF41C8573150097D8A4 /* jobu.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jobu.jpeg; sourceTree = "<group>"; };
+		8643DBF61C85732D0097D8A4 /* bafetto.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bafetto.jpeg; sourceTree = "<group>"; };
+		8643DBF81C85733E0097D8A4 /* bil.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bil.PNG; sourceTree = "<group>"; };
+		8643DBFA1C85734B0097D8A4 /* disney.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disney.png; sourceTree = "<group>"; };
+		8643DBFC1C85735E0097D8A4 /* elon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = elon.jpeg; path = Uranai/elon.jpeg; sourceTree = "<group>"; };
+		8643DBFE1C8573660097D8A4 /* matsusita.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = matsusita.jpeg; path = Uranai/matsusita.jpeg; sourceTree = "<group>"; };
+		8643DC001C8573700097D8A4 /* olacle.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = olacle.jpeg; path = Uranai/olacle.jpeg; sourceTree = "<group>"; };
+		8643DC021C8573790097D8A4 /* son.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = son.jpeg; path = Uranai/son.jpeg; sourceTree = "<group>"; };
+		8643DC041C8573820097D8A4 /* yanai.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yanai.jpeg; path = Uranai/yanai.jpeg; sourceTree = "<group>"; };
+		8643DC061C8577400097D8A4 /* son2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = son2.jpeg; path = Uranai/son2.jpeg; sourceTree = "<group>"; };
+		8643DC081C8590690097D8A4 /* uranaiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uranaiViewController.swift; sourceTree = "<group>"; };
 		864CB5DD1C758F40003D1FAD /* Uranai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uranai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		864CB5E01C758F40003D1FAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		864CB5E21C758F40003D1FAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				864CB5DF1C758F40003D1FAD /* Uranai */,
+				8643DC061C8577400097D8A4 /* son2.jpeg */,
+				8643DC041C8573820097D8A4 /* yanai.jpeg */,
+				8643DC021C8573790097D8A4 /* son.jpeg */,
+				8643DC001C8573700097D8A4 /* olacle.jpeg */,
+				8643DBFE1C8573660097D8A4 /* matsusita.jpeg */,
+				8643DBFC1C85735E0097D8A4 /* elon.jpeg */,
 				864CB5DE1C758F40003D1FAD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,16 +88,20 @@
 		864CB5DF1C758F40003D1FAD /* Uranai */ = {
 			isa = PBXGroup;
 			children = (
-				8643DBE61C7FE4960097D8A4 /* ビルゲイツ.PNG */,
+				8643DBFA1C85734B0097D8A4 /* disney.png */,
+				8643DBF81C85733E0097D8A4 /* bil.PNG */,
+				8643DBF61C85732D0097D8A4 /* bafetto.jpeg */,
+				8643DBF21C8572E60097D8A4 /* ain.jpeg */,
+				8643DBF41C8573150097D8A4 /* jobu.jpeg */,
 				864CB5E01C758F40003D1FAD /* AppDelegate.swift */,
 				864CB5E21C758F40003D1FAD /* ViewController.swift */,
 				864CB5E41C758F40003D1FAD /* Main.storyboard */,
-				8643DBE81C7FE5F40097D8A4 /* ジョブズ.jpeg */,
 				864CB5E71C758F40003D1FAD /* Assets.xcassets */,
 				864CB5E91C758F40003D1FAD /* LaunchScreen.storyboard */,
 				864CB5EC1C758F40003D1FAD /* Info.plist */,
 				861679BA1C7AE1B9006AD985 /* InputViewController.swift */,
 				861679BC1C7AE33E006AD985 /* resultViewController.swift */,
+				8643DC081C8590690097D8A4 /* uranaiViewController.swift */,
 			);
 			path = Uranai;
 			sourceTree = "<group>";
@@ -135,11 +165,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8643DBF31C8572E60097D8A4 /* ain.jpeg in Resources */,
+				8643DC071C8577400097D8A4 /* son2.jpeg in Resources */,
+				8643DBFB1C85734B0097D8A4 /* disney.png in Resources */,
 				864CB5EB1C758F40003D1FAD /* LaunchScreen.storyboard in Resources */,
+				8643DBF51C8573150097D8A4 /* jobu.jpeg in Resources */,
 				864CB5E81C758F40003D1FAD /* Assets.xcassets in Resources */,
-				8643DBE91C7FE5F40097D8A4 /* ジョブズ.jpeg in Resources */,
-				8643DBE71C7FE4960097D8A4 /* ビルゲイツ.PNG in Resources */,
+				8643DBFF1C8573660097D8A4 /* matsusita.jpeg in Resources */,
+				8643DBFD1C85735E0097D8A4 /* elon.jpeg in Resources */,
+				8643DBF91C85733E0097D8A4 /* bil.PNG in Resources */,
+				8643DC031C8573790097D8A4 /* son.jpeg in Resources */,
+				8643DC011C8573700097D8A4 /* olacle.jpeg in Resources */,
 				864CB5E61C758F40003D1FAD /* Main.storyboard in Resources */,
+				8643DC051C8573820097D8A4 /* yanai.jpeg in Resources */,
+				8643DBF71C85732D0097D8A4 /* bafetto.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +193,7 @@
 				864CB5E31C758F40003D1FAD /* ViewController.swift in Sources */,
 				864CB5E11C758F40003D1FAD /* AppDelegate.swift in Sources */,
 				861679BD1C7AE33E006AD985 /* resultViewController.swift in Sources */,
+				8643DC091C8590690097D8A4 /* uranaiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
