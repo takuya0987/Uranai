@@ -95,7 +95,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="こちらを選んでください！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cwv-sj-iZR">
-                                <rect key="frame" x="33" y="50" width="255" height="33"/>
+                                <rect key="frame" x="33" y="86" width="255" height="33"/>
                                 <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -189,7 +189,7 @@
         <!--View Controller-->
         <scene sceneID="LFk-Rf-8A3">
             <objects>
-                <viewController id="jHe-B9-jSU" sceneMemberID="viewController">
+                <viewController id="jHe-B9-jSU" customClass="ViewController" customModule="Uranai" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vby-mt-uKG"/>
                         <viewControllerLayoutGuide type="bottom" id="5bG-NB-Z2A"/>
@@ -207,10 +207,19 @@
                                     <segue destination="V4x-bd-irL" kind="modal" id="YQl-sj-RhM"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="シェイクしてください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAX-nj-dzq">
+                                <rect key="frame" x="55" y="192" width="211" height="63"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="shakeLabel" destination="hAX-nj-dzq" id="sEX-yc-dKY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HV1-QS-JIQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

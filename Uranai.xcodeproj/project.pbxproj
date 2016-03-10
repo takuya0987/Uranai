@@ -33,7 +33,7 @@
 		866B475E1C897A850071DA5D /* aribaba.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 866B474C1C897A850071DA5D /* aribaba.jpeg */; };
 		866B475F1C897A850071DA5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 866B474D1C897A850071DA5D /* Assets.xcassets */; };
 		866B47601C897A850071DA5D /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 866B474E1C897A850071DA5D /* Base.lproj */; };
-		866B47611C897A850071DA5D /* bil のコピー.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 866B474F1C897A850071DA5D /* bil のコピー.PNG */; };
+		866B47611C897A850071DA5D /* bil.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 866B474F1C897A850071DA5D /* bil.PNG */; };
 		866B47621C897A850071DA5D /* charls cork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 866B47501C897A850071DA5D /* charls cork.jpg */; };
 		866B47631C897A850071DA5D /* ejison.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 866B47511C897A850071DA5D /* ejison.jpg */; };
 		866B47641C897A850071DA5D /* facebook.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 866B47521C897A850071DA5D /* facebook.jpeg */; };
@@ -81,7 +81,7 @@
 		866B474C1C897A850071DA5D /* aribaba.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aribaba.jpeg; sourceTree = "<group>"; };
 		866B474D1C897A850071DA5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		866B474E1C897A850071DA5D /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
-		866B474F1C897A850071DA5D /* bil のコピー.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bil のコピー.PNG"; sourceTree = "<group>"; };
+		866B474F1C897A850071DA5D /* bil.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bil.PNG; sourceTree = "<group>"; };
 		866B47501C897A850071DA5D /* charls cork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "charls cork.jpg"; sourceTree = "<group>"; };
 		866B47511C897A850071DA5D /* ejison.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ejison.jpg; sourceTree = "<group>"; };
 		866B47521C897A850071DA5D /* facebook.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = facebook.jpeg; sourceTree = "<group>"; };
@@ -136,7 +136,7 @@
 				866B474C1C897A850071DA5D /* aribaba.jpeg */,
 				866B474D1C897A850071DA5D /* Assets.xcassets */,
 				866B474E1C897A850071DA5D /* Base.lproj */,
-				866B474F1C897A850071DA5D /* bil のコピー.PNG */,
+				866B474F1C897A850071DA5D /* bil.PNG */,
 				866B47991C8DE4C80071DA5D /* DISNEY.jpg */,
 				866B47501C897A850071DA5D /* charls cork.jpg */,
 				866B47511C897A850071DA5D /* ejison.jpg */,
@@ -259,7 +259,7 @@
 				8643DBFD1C85735E0097D8A4 /* elon.jpeg in Resources */,
 				866B47691C897A850071DA5D /* Line.jpg in Resources */,
 				866B479A1C8DE4C80071DA5D /* DISNEY.jpg in Resources */,
-				866B47611C897A850071DA5D /* bil のコピー.PNG in Resources */,
+				866B47611C897A850071DA5D /* bil.PNG in Resources */,
 				866B47721C899F500071DA5D /* oracl.jpg in Resources */,
 				866B476E1C897A850071DA5D /* zara.jpg in Resources */,
 				866B47641C897A850071DA5D /* facebook.jpeg in Resources */,
