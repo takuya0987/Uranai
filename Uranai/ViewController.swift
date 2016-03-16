@@ -8,14 +8,19 @@
 
 import UIKit
 import CoreMotion
+import iAd
 
-class ViewController: UIViewController {
+
+class ViewController: UIViewController,ADBannerViewDelegate {
     @IBOutlet weak var shakeLabel: UILabel!
+    @IBOutlet weak var myIAd: ADBannerView!
        let motionManager = CMMotionManager()
     var x = 0
     var y = 0
     var z = 0
     var shakecount = 0
+    
+    //iAdバーナー表示
     
     
     
@@ -24,8 +29,13 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var myImageView: UIImageView!
 
+    @IBOutlet weak var myAad: ADBannerView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //iADの設定
+        //self.myAad.delegate = self
+        //self.myAad.hidden = true
         
         //角を丸める
         //self.motionManager.layer.cornerRadius = 30

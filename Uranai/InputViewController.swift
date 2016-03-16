@@ -7,11 +7,16 @@
 //
 
 import UIKit
+import iAd
 
-class InputViewController: UIViewController {
+class InputViewController: UIViewController,ADBannerViewDelegate  {
 
+    @IBOutlet weak var myIAd: ADBannerView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        //iADの設定
+            self.myIAd.delegate = self
+            self.myIAd.hidden = true
 
         // Do any additional setup after loading the view.
     }
