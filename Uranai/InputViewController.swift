@@ -13,6 +13,16 @@ class InputViewController: UIViewController,ADBannerViewDelegate  {
 
     @IBOutlet weak var myIAd: ADBannerView!
   
+    @IBOutlet weak var myQ1: UILabel!
+    @IBOutlet weak var myQ2: UILabel!
+    @IBOutlet weak var myQ3: UILabel!
+    @IBOutlet weak var myQ4: UILabel!
+    @IBOutlet weak var myQ5: UILabel!
+    @IBOutlet weak var myQ1Btn: UISwitch!
+    @IBOutlet weak var myQ2Btn: UISwitch!
+    @IBOutlet weak var myQ3Btn: UISwitch!
+    @IBOutlet weak var myQ4Btn: UISwitch!
+    @IBOutlet weak var myQ5Btn: UISwitch!
     override func viewDidLoad() {
         super.viewDidLoad()
         //iADの設定

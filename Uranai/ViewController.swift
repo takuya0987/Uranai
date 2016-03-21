@@ -1,10 +1,9 @@
-//
-//  ViewController.swift
-//  Uranai
-//
-//  Created by moritakuya on 2016/02/18.
-//  Copyright © 2016年 moritakuya. All rights reserved.
-//
+    
+        //  ViewController.swift
+        //  Uranai
+        //  Created by moritakuya on 2016/02/18.
+        //  Copyright © 2016年 moritakuya. All rights reserved.
+
 
 import UIKit
 import CoreMotion
@@ -20,13 +19,10 @@ class ViewController: UIViewController,ADBannerViewDelegate {
     var z = 0
     var shakecount = 0
     
-    //iAdバーナー表示
+        //iAdバーナー表示
     
     
     
-    
-    
-
     @IBOutlet weak var myImageView: UIImageView!
 
     @IBOutlet weak var myAad: ADBannerView!
