@@ -12,6 +12,7 @@ import iAd
 class InputViewController: UIViewController,ADBannerViewDelegate  {
 
     @IBOutlet weak var myIAd: ADBannerView!
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         //iADの設定
