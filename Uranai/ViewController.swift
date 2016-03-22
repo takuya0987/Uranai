@@ -13,6 +13,7 @@ import iAd
 class ViewController: UIViewController,ADBannerViewDelegate {
     @IBOutlet weak var shakeLabel: UILabel!
     @IBOutlet weak var myIAd: ADBannerView!
+    
        let motionManager = CMMotionManager()
     var x = 0
     var y = 0
