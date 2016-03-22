@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		860DD6141CA1B3AD0058D366 /* bil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 860DD6131CA1B3AD0058D366 /* bil.jpg */; };
+		860DD6161CA1C6220058D366 /* startViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860DD6151CA1C6220058D366 /* startViewController.swift */; };
 		860E16101C915BFC00CFC643 /* bil.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 860E160F1C915BFC00CFC643 /* bil.PNG */; };
 		861679BB1C7AE1B9006AD985 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861679BA1C7AE1B9006AD985 /* InputViewController.swift */; };
 		861679BD1C7AE33E006AD985 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861679BC1C7AE33E006AD985 /* resultViewController.swift */; };
@@ -52,6 +54,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		860DD6131CA1B3AD0058D366 /* bil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bil.jpg; sourceTree = "<group>"; };
+		860DD6151CA1C6220058D366 /* startViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = startViewController.swift; sourceTree = "<group>"; };
 		860E160F1C915BFC00CFC643 /* bil.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bil.PNG; sourceTree = "<group>"; };
 		861679BA1C7AE1B9006AD985 /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		861679BC1C7AE33E006AD985 /* resultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +137,7 @@
 				866B474B1C897A850071DA5D /* amazon.jpeg */,
 				866B474C1C897A850071DA5D /* aribaba.jpeg */,
 				866B474D1C897A850071DA5D /* Assets.xcassets */,
+				860DD6131CA1B3AD0058D366 /* bil.jpg */,
 				866B474E1C897A850071DA5D /* Base.lproj */,
 				866B47991C8DE4C80071DA5D /* DISNEY.jpg */,
 				866B47501C897A850071DA5D /* charls cork.jpg */,
@@ -171,6 +176,7 @@
 				861679BA1C7AE1B9006AD985 /* InputViewController.swift */,
 				861679BC1C7AE33E006AD985 /* resultViewController.swift */,
 				8643DC081C8590690097D8A4 /* uranaiViewController.swift */,
+				860DD6151CA1C6220058D366 /* startViewController.swift */,
 			);
 			path = Uranai;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8643DBF31C8572E60097D8A4 /* ain.jpeg in Resources */,
+				860DD6141CA1B3AD0058D366 /* bil.jpg in Resources */,
 				866B47601C897A850071DA5D /* Base.lproj in Resources */,
 				8643DC071C8577400097D8A4 /* son2.jpeg in Resources */,
 				8643DBFB1C85734B0097D8A4 /* disney.png in Resources */,
@@ -282,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				861679BB1C7AE1B9006AD985 /* InputViewController.swift in Sources */,
+				860DD6161CA1C6220058D366 /* startViewController.swift in Sources */,
 				864CB5E31C758F40003D1FAD /* ViewController.swift in Sources */,
 				864CB5E11C758F40003D1FAD /* AppDelegate.swift in Sources */,
 				861679BD1C7AE33E006AD985 /* resultViewController.swift in Sources */,

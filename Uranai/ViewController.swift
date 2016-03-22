@@ -25,9 +25,7 @@ class ViewController: UIViewController,ADBannerViewDelegate {
     
     
     @IBOutlet weak var myImageView: UIImageView!
-
-    @IBOutlet weak var myAad: ADBannerView!
-    override func viewDidLoad() {
+ override func viewDidLoad() {
         super.viewDidLoad()
         
         //iADの設定
@@ -47,7 +45,9 @@ class ViewController: UIViewController,ADBannerViewDelegate {
 
     }
 
+    @IBOutlet weak var resultBtn: UIButton!
     override func didReceiveMemoryWarning() {
+        
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
@@ -77,7 +77,9 @@ class ViewController: UIViewController,ADBannerViewDelegate {
         }
         if (shakecount == 15){
             print("5回シェイクしました！")
-            //shakeLabel!.text = "完了"
+            shakeLabel!.text = "完了"
+            resultBtn.hidden = false
+            
             
         }
         

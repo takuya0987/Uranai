@@ -6,10 +6,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Start View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Uranai" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="startViewController" customModule="Uranai" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -78,7 +78,6 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="myBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GPp-XD-nLP"/>
                                     <segue destination="vZ5-1J-uQk" kind="show" id="8pl-rL-oMp"/>
                                 </connections>
                             </button>
@@ -95,7 +94,7 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="w8c-RW-KDL"/>
                                 </constraints>
                             </adBannerView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="omote.png" translatesAutoresizingMaskIntoConstraints="NO" id="tkY-Hw-0Fl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="omote.png" translatesAutoresizingMaskIntoConstraints="NO" id="tkY-Hw-0Fl">
                                 <rect key="frame" x="0.0" y="244" width="320" height="112"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="112" id="xyr-Mv-sao"/>
@@ -107,7 +106,7 @@
                                     <constraint firstAttribute="height" constant="66" id="WLw-sP-yoG"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bafetto.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="7mF-IE-b2u">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bafetto.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="7mF-IE-b2u">
                                 <rect key="frame" x="213" y="356" width="107" height="66"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="66" id="DhP-jb-qB2"/>
@@ -179,7 +178,7 @@
                     <navigationItem key="navigationItem" id="b6T-F8-8B3"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="myAad" destination="Jgi-tc-92W" id="DwS-Kb-SD0"/>
+                        <outlet property="myAad" destination="Jgi-tc-92W" id="rL3-J9-yvR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -446,7 +445,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="jobu.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="KIC-oz-3zd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bil.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KIC-oz-3zd">
                                 <rect key="frame" x="0.0" y="58" width="130" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="Asc-tj-Vz7"/>
@@ -523,7 +522,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kcY-rf-0gU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2140" y="-672"/>
+            <point key="canvasLocation" x="2145" y="-672"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="LFk-Rf-8A3">
@@ -555,7 +554,7 @@
                                     <constraint firstAttribute="height" constant="50" id="d8e-ee-Xhk"/>
                                 </constraints>
                             </adBannerView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wod-UT-xWA">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wod-UT-xWA">
                                 <rect key="frame" x="118" y="126" width="88" height="65"/>
                                 <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -604,6 +603,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="myIAd" destination="dPa-pB-pRV" id="Ost-ki-CzW"/>
+                        <outlet property="resultBtn" destination="Wod-UT-xWA" id="F9Y-xK-tBF"/>
                         <outlet property="shakeLabel" destination="hAX-nj-dzq" id="sEX-yc-dKY"/>
                     </connections>
                 </viewController>
@@ -636,6 +636,7 @@
         <image name="ain.jpeg" width="225" height="225"/>
         <image name="bafetto.jpeg" width="225" height="225"/>
         <image name="bil.PNG" width="1198" height="805"/>
+        <image name="bil.jpg" width="1198" height="805"/>
         <image name="elon.jpeg" width="275" height="183"/>
         <image name="jobu.jpeg" width="300" height="300"/>
         <image name="olacle.jpeg" width="259" height="194"/>
