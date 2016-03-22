@@ -23,13 +23,18 @@ class InputViewController: UIViewController,ADBannerViewDelegate  {
     @IBOutlet weak var myQ3Btn: UISwitch!
     @IBOutlet weak var myQ4Btn: UISwitch!
     @IBOutlet weak var myQ5Btn: UISwitch!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //iADの設定
-            self.myIAd.delegate = self
-            self.myIAd.hidden = true
+           // self.myIAd.delegate = self
+           // self.myIAd.hidden = true
 
         // Do any additional setup after loading the view.
+   
+         self.navigationItem.title = "当てはまるものを選んでください"
+    
     }
 
     override func didReceiveMemoryWarning() {
